@@ -1,0 +1,202 @@
+/* General Container for the Main Content */
+.container {
+    margin: 0 auto; /* Center the container */
+  }
+  
+  /* Time Period Navigation Bar */
+  .time-period-nav {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 24px;
+    margin-top: 16px;
+    margin-left: 12px; /* Increased spacing */
+  }
+  
+  .time-period-button {
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0; /* Removed default margin */
+  }
+  
+  .time-period-button.active {
+    background-color: #1890ff; /* Ant Design's primary color */
+    color: white;
+  }
+  
+  /* Chart Header */
+  .chart-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; /* Reduced gap */
+    margin-bottom: 24px; /* Increased bottom margin */
+    color: #0071bd;
+  }
+  
+  .chart-title {
+    color: #0071bd;
+    margin: 0; /* Removed default margin */
+  }
+  
+  /* Price Container */
+ 
+  
+  .price-change {
+    font-weight: 900;
+  }
+  
+  .current-price {
+    font-weight: 900;
+  }
+  
+  /* Price Label Position */
+  .price-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.75em;
+    color: #888;
+  }
+  
+  /* Coin Detail Container */
+  .coin-detail-container {
+    margin: 30px auto;
+    width: 66.67%;
+    padding: 0 20px; /* Added padding */
+  }
+  
+  /* Coin Heading Container */
+  .coin-heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 1px solid var(--border);
+    padding: 20px 0; /* Unified padding */
+    gap: 12px; /* Increased gap */
+  }
+  
+  /* Coin Stats Container */
+  .stats-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px; /* Reduced gap */
+    margin-bottom: 24px; /* Added margin */
+  }
+  
+  /* Coin Desc Link Container */
+  .coin-desc {
+    display: flex;
+    gap: 24px; /* Reduced gap */
+    margin: 24px 4px; /* Added margin */
+    padding: 20px 0; /* Unified padding */
+  }
+  
+  /* Coin Links Container */
+  .coin-links {
+    padding: 0 20px;
+    flex: 0.5;
+    margin-top: 16px;
+  }
+  
+  /* Coin Link */
+  .coin-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    padding: 16px 0;
+    margin-top:16px ; /* Reduced padding */
+  }
+  
+  /* Statistics and OtherStats Component Styles */
+  .coin-value-statistics,
+  .other-stats-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+  }
+  
+  .coin-value-statistics-heading,
+  .other-stats-info-heading {
+    text-align: center;
+    margin-bottom: 24px; /* Increased bottom margin */
+  }
+  
+  .coin-details-heading {
+    font-weight: 700;
+    color: #0071bd; /* Adjust to match your color scheme */
+    margin: 0; /* Removed default margin */
+  }
+  
+  .coin-stats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #d9d9d9; /* Border color */
+    padding: 12px 0; /* Unified padding */
+  }
+  
+  .coin-stats-name {
+    display: flex;
+    gap: 12px; /* Reduced gap */
+  }
+  
+  .stats {
+    font-weight: 800;
+  }
+  
+  /* Responsive Adjustments */
+  @media screen and (max-width: 1000px) {
+    .stats-container,
+    .coin-desc-link {
+      flex-direction: column;
+    }
+    
+    .coin-links {
+      padding: 0;
+    }
+    
+   
+  
+ 
+  }
+  
+  @media screen and (max-width: 500px) {
+    .heading {
+      margin-top: 20px;
+    }
+  }
+  
+  .navigation {
+    margin-bottom: 16px; /* Adjust margin as needed */
+    padding-bottom: 16px;
+  }
+  .coin-name{
+    flex-direction: column;
+  }
+  .coin-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .price-container {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  .price {
+    font-size: 2rem; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+  }
+  
+  .price-change-container {
+    margin-top: 0.5rem; /* Adjust spacing as needed */
+    text-align: center; /* Center the text */
+  }
+   
